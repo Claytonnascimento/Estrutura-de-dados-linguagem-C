@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int num, soma=0, i;
+
+    for(i=0; i<5; i++) {
+        scanf("%d", &num);
+        soma += num;
+    }
+
+    printf("Soma: %d\n", soma);
+    return 0;
+}
