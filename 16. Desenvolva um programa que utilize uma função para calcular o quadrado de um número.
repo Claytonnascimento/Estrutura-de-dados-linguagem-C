@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int quadrado(int num) {
+    return num * num;
+}
+
+int main() {
+    int num;
+    scanf("%d", &num);
+
+    printf("Quadrado: %d\n", quadrado(num));
+    return 0;
+}
